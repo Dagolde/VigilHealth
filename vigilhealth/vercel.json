@@ -1,0 +1,10 @@
+{
+  "crons": [
+    { "path": "/api/cron/fetch-who-data", "schedule": "0 0 * * *" },
+    { "path": "/api/cron/fetch-cdc-data", "schedule": "0 2 * * *" },
+    { "path": "/api/cron/send-digest", "schedule": "0 7 * * *" },
+    { "path": "/api/cron/reverify-badges", "schedule": "0 1 * * *" },
+    { "path": "/api/cron/data-retention", "schedule": "0 3 * * 0" },
+    { "path": "/api/cron/help-request-reminders", "schedule": "0 9 * * *" }
+  ]
+}

@@ -1,0 +1,25 @@
+# Snyk Security Scan Configuration
+# https://docs.snyk.io/snyk-cli/commands/snyk-config
+#
+# Setup:
+# 1. Install Snyk CLI: npm install -g snyk
+# 2. Authenticate: snyk auth
+# 3. Run scan: snyk test
+# 4. Monitor: snyk monitor
+#
+# CI/CD Integration:
+# Add to GitHub Actions workflow:
+#   - name: Run Snyk security scan
+#     uses: snyk/actions/node@master
+#     env:
+#       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+#     with:
+#       args: --severity-threshold=high
+
+version: v1.25.0
+
+# Ignore specific vulnerabilities (add as needed)
+ignore: {}
+
+# Patch configuration
+patch: {}

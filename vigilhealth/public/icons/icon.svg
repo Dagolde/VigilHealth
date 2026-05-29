@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background circle (maskable safe zone) -->
+  <rect width="512" height="512" rx="112" fill="#22c55e"/>
+
+  <!-- Shield shape -->
+  <path d="M256 96 L368 140 L368 256 C368 318 320 368 256 400 C192 368 144 318 144 256 L144 140 Z"
+        fill="white" opacity="0.15"/>
+  <path d="M256 108 L356 148 L356 256 C356 312 312 358 256 388 C200 358 156 312 156 256 L156 148 Z"
+        fill="none" stroke="white" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- Heart pulse / ECG line inside shield -->
+  <polyline points="186,256 210,256 224,220 240,292 256,236 272,270 286,256 326,256"
+            fill="none" stroke="white" stroke-width="14"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Location pin dot at top of shield -->
+  <circle cx="256" cy="148" r="10" fill="white" opacity="0.9"/>
+</svg>
